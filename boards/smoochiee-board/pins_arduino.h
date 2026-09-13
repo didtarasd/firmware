@@ -32,6 +32,8 @@ static const uint8_t SCL = 22;
 #define SEL_BTN 17          // Кнопка 3 — Выбор (ОК)
 #define ESC_BTN 19          // Кнопка 4 — Назад (Отмена)
 #define BTN_ACT LOW         // Замыкание на GND
+#define L_BTN -1
+#define R_BTN -1
 
 // === ИНФРАКРАСНЫЙ ПОРТ (IR) ===
 #define HAS_IR
@@ -66,5 +68,7 @@ static const uint8_t SCL = 22;
 #define SDCARD_SCK 14       // Ваш CLK карты
 #define SDCARD_MOSI 13      // Ваш MOSI карты
 #define SDCARD_MISO 35      // Ваш MISO карты
+
+#define NO_BATTERY 1
 
 #endif /* Pins_Arduino_h */
